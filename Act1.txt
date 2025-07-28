@@ -1,11 +1,16 @@
 void main () {
-  String name = 'Alice';
-  print ("Welcome, $name!");
- 
-  dynamic name1 = 'Alice';
-  name1 = 25;
-  print ("Welcome, $name1!");
- }
+  String greeting = 'Welcome,';
+  String user = 'Alice';
+  print ("$greeting $user!");
+}
+
+void main () {
+  dynamic greeting = 'Welcome,';
+  dynamic user = 'Alice';
+  user = 25;
+  print ("$greeting $user!");
+}
+
 
 - In this lesson, I understand that if I change the variable into the dynamic 
 it won't cause any compiling error because the dynamic variable is a variable
