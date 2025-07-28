@@ -1,0 +1,12 @@
+void main () {
+  String name = 'Alice';
+  print ("Welcome, $name!");
+ 
+  dynamic name1 = 'Alice';
+  name1 = 25;
+  print ("Welcome, $name1!");
+ }
+
+- In this lesson, I understand that if I change the variable into the dynamic 
+it won't cause any compiling error because the dynamic variable is a variable
+that is flexible and it will disabled static typing variable.
